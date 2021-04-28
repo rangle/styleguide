@@ -1,0 +1,45 @@
+.code-sample {
+  border: solid 1px #6EE7B7;
+  margin-bottom: 10px;
+  .title {
+    background-color: #6EE7B7;
+    padding: 5px;
+  }
+  &.avoid {
+    border-color: #FCA5A5;
+    .title {
+      background-color: #FCA5A5;
+    }
+  }
+}
+
+.code-file-group {
+  border: solid 1px lightgrey;
+}
+
+code,
+.code {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  line-height: normal;
+  background-color: #f8f8f8;
+  pre {
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+.code-file-group {
+  margin-bottom: 10px;
+}
+
+.sidebar {
+  border: solid 1px lightgrey;
+  border-left: solid 4px darkblue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  padding-left: 250px;
+}
